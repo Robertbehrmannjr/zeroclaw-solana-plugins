@@ -1,0 +1,11 @@
+[plugin]
+name = "solana-depin-node"
+version = "0.1.0"
+type = "tool"
+entrypoint = "target/wasm32-wasip2/release/solana_depin_node.wasm"
+
+[permissions]
+config_read = true      # Read hardware configs
+http_client = false     # Completely offline building
+filesystem = false
+process = false

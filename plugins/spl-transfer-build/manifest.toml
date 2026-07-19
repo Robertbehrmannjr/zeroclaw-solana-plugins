@@ -1,0 +1,11 @@
+[plugin]
+name = "spl-transfer-build"
+version = "0.1.0"
+type = "tool"
+entrypoint = "target/wasm32-wasip2/release/spl_transfer_build.wasm"
+
+[permissions]
+config_read = true      # Read default tokens / durable nonces from config
+http_client = false     # Transfer compiler is 100% offline & pure
+filesystem = false      # Deny all filesystem access
+process = false         # Deny subprocessing
