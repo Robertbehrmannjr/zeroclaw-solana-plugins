@@ -1,0 +1,2 @@
+cargo:rustc-link-lib=wit_bindgen_cabi_realloc0_34_0
+cargo:rustc-link-search=native=/mnt/c/Users/rober/OneDrive/Documentos/earnProject/plugins/solana-depin-node/target/wasm32-wasip2/release/build/wit-bindgen-rt-cc34cfc748c90826/out

@@ -1,0 +1,16 @@
+[package]
+name = "balance-check"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "ZeroClaw tool plugin: checks native SOL and SPL token balances via pure waki HTTP RPC without sockets."
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+wit-bindgen = "0.36.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+solana-zeroclaw-core = { path = "../../crates/solana-zeroclaw-core" }
+base64 = "0.22"

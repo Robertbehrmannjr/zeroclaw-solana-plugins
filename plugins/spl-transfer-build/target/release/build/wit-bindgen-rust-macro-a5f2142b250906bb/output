@@ -1,0 +1,2 @@
+cargo:rerun-if-changed=build.rs
+cargo:rustc-env=DEBUG_OUTPUT_DIR=/mnt/c/Users/rober/OneDrive/Documentos/earnProject/plugins/spl-transfer-build/target/release/build/wit-bindgen-rust-macro-a5f2142b250906bb/out

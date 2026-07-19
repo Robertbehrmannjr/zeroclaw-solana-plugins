@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "crates/solana-zeroclaw-core",
+    "plugins/spl-transfer-build",
+    "plugins/balance-check",
+    "plugins/solana-depin-node",
+]
+resolver = "2"
