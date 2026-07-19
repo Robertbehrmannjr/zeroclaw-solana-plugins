@@ -1,0 +1,11 @@
+[plugin]
+name = "balance-check"
+version = "0.1.0"
+type = "tool"
+entrypoint = "target/wasm32-wasip2/release/balance_check.wasm"
+
+[permissions]
+config_read = true      # Read custom rpc_url from section
+http_client = true      # Permit outbound wasi:http to Solana RPC endpoints
+filesystem = false
+process = false
